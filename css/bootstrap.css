@@ -5,8 +5,8 @@
  */
 
 /*!
- * Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=887b5128b228bba5335d74fbe73f6e60)
- * Config saved to config.json and https://gist.github.com/887b5128b228bba5335d74fbe73f6e60
+ * Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=4e8dab0f197ec60141705f974693e5ef)
+ * Config saved to config.json and https://gist.github.com/4e8dab0f197ec60141705f974693e5ef
  */
 /*!
  * Bootstrap v3.3.6 (http://getbootstrap.com)
@@ -1091,8 +1091,8 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #ffffff;
-  background-color: #ff0000;
+  color: #000000;
+  background-color: #d7d7c1;
 }
 input,
 button,
@@ -1103,12 +1103,12 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #871013;
+  color: #ff0000;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #430809;
+  color: #b30000;
   text-decoration: underline;
 }
 a:focus {
@@ -1137,7 +1137,7 @@ img {
 .img-thumbnail {
   padding: 4px;
   line-height: 1.42857143;
-  background-color: #ff0000;
+  background-color: #d7d7c1;
   border: 1px solid #dddddd;
   border-radius: 4px;
   -webkit-transition: all 0.2s ease-in-out;
@@ -2299,7 +2299,7 @@ th {
   border-top: 2px solid #dddddd;
 }
 .table .table {
-  background-color: #ff0000;
+  background-color: #d7d7c1;
 }
 .table-condensed > thead > tr > th,
 .table-condensed > tbody > tr > th,
@@ -2918,7 +2918,7 @@ select[multiple].input-lg {
   display: block;
   margin-top: 5px;
   margin-bottom: 10px;
-  color: #ffffff;
+  color: #404040;
 }
 @media (min-width: 768px) {
   .form-inline .form-group {
@@ -3408,7 +3408,7 @@ fieldset[disabled] .btn-danger.focus {
   background-color: #ffffff;
 }
 .btn-link {
-  color: #871013;
+  color: #ff0000;
   font-weight: normal;
   border-radius: 0;
 }
@@ -3429,7 +3429,7 @@ fieldset[disabled] .btn-link {
 }
 .btn-link:hover,
 .btn-link:focus {
-  color: #430809;
+  color: #b30000;
   text-decoration: underline;
   background-color: transparent;
 }
@@ -4013,7 +4013,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav .open > a:hover,
 .nav .open > a:focus {
   background-color: #ffffff;
-  border-color: #871013;
+  border-color: #ff0000;
 }
 .nav .nav-divider {
   height: 1px;
@@ -4044,7 +4044,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
   color: #888888;
-  background-color: #ff0000;
+  background-color: #d7d7c1;
   border: 1px solid #dddddd;
   border-bottom-color: transparent;
   cursor: default;
@@ -4090,7 +4090,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .nav-tabs.nav-justified > .active > a,
   .nav-tabs.nav-justified > .active > a:hover,
   .nav-tabs.nav-justified > .active > a:focus {
-    border-bottom-color: #ff0000;
+    border-bottom-color: #d7d7c1;
   }
 }
 .nav-pills > li {
@@ -4158,7 +4158,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .nav-tabs-justified > .active > a,
   .nav-tabs-justified > .active > a:hover,
   .nav-tabs-justified > .active > a:focus {
-    border-bottom-color: #ff0000;
+    border-bottom-color: #d7d7c1;
   }
 }
 .tab-content > .tab-pane {
@@ -4733,7 +4733,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   padding: 6px 12px;
   line-height: 1.42857143;
   text-decoration: none;
-  color: #871013;
+  color: #ff0000;
   background-color: #ffffff;
   border: 1px solid #dddddd;
   margin-left: -1px;
@@ -4754,7 +4754,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pagination > li > a:focus,
 .pagination > li > span:focus {
   z-index: 2;
-  color: #430809;
+  color: #b30000;
   background-color: #ffffff;
   border-color: #dddddd;
 }
@@ -4952,7 +4952,7 @@ a.badge:focus {
 }
 .list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
-  color: #871013;
+  color: #ff0000;
   background-color: #ffffff;
 }
 .list-group-item > .badge {
@@ -5012,7 +5012,7 @@ a.badge:focus {
   padding: 4px;
   margin-bottom: 20px;
   line-height: 1.42857143;
-  background-color: #ff0000;
+  background-color: #d7d7c1;
   border: 1px solid #dddddd;
   border-radius: 4px;
   -webkit-transition: border 0.2s ease-in-out;
@@ -5027,11 +5027,11 @@ a.badge:focus {
 a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
-  border-color: #871013;
+  border-color: #ff0000;
 }
 .thumbnail .caption {
   padding: 9px;
-  color: #ffffff;
+  color: #000000;
 }
 .alert {
   padding: 15px;
