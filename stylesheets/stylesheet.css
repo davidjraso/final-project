@@ -50,10 +50,6 @@ body {
   background-color: #839095;
 }
 
-row {
-  background-color: #ff0000;
-}
-
-col-md-12 {
-  background-color: #ff0000;
+#mainBody {
+  background-color: #839095
 }
