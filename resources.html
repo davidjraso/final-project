@@ -177,31 +177,41 @@
      to go to a special Wash U website that has all the information you could need on every club and organization at the university.</p>
      </div>
      
-     <div class="col-md-12">
-     <h3>Still have a question? Ask your own!</h3>
+   <div class="col-md-12">
+     <h1>Still have a question? Ask your own!</h1>
      <hr>
      <p>If all of your questions are not answered, leave your name, email, and ask us a question and we'll be sure to get back
      to you with the correct response.</p>
-     <a href="#img1" rel="modal:open" class="button">Ask a question</a>
-      <div id="img1" style="display:none;">
-        <form action="//formspree.io/davidjraso@wustl.edu" method="POST">
-        <div>
-          <label>Name</label>
-          <input type="text" name="name" value="Your name">
+     
+     <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#alas">
+  Ask a question
+</button>
+</div>
+
+<!-- Modal -->
+      <div class="modal fade" id="alas" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="myModalLabel">Association of Latin American Students</h4>
+            </div>
+            <div class="modal-body">
+              <form>
+               <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+               </div>
+               <textarea class="form-control" rows="4"></textarea>
+              <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
         </div>
-        <div>
-          <label>Email</label>
-          <input type="email" name="email" value="Your email">
-        </div>
-        <div>
-          <label>Question</label>
-          <input type="text" name="question" value="Ask a question">
-        </div>
-        <div>
-          <input type="submit" value="Send">
-        </div>
-      </form>
-      </div>
       </div>
       
       <div class="col-md-12">
