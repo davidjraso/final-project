@@ -1,30 +1,68 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-    <meta charset="UTF-8">
-    <title>Resources</title>
+   <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-    <p><a href="index.html">Home</a> |
-    <a href="academics.html">Academics</a> |
-    <a href="dining.html">Dining</a> |
-    <a href="resources.html">Resources</a>
-    </p>
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Questions and Answers</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="stylesheets/stylesheet.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
   </head>
   <body>
-    <section class="page-header">
-      <img src="images/brookingsHeader.jpg">
-      <h1 class="project-name">Resources</h1>
-      <h2>Here are just a few of the many clubs and organizations available. Click the email to contact the President for more information.</h2>
-    </section>
+     <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Washington University in St. Louis Questions and Answers</a>
+        </div>
 
-    <section class="main-content">
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="academics.html">Academics</a></li>
+            <li><a href="dining.html">Dining</a></li>
+            <li><a href="resources.html">Resources</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    
+    <div class="jumbotron">
+      <div class="container">
+        <div class="row">
+        <div class="col-md-8" id="jumboMain">
+          <h1>Resources</h1>
+          <h4>Here are just a few of the many clubs and organizations available. Click the email to contact the President for more information.</h4>
+        </div>
+        <div class="col-md-4">
+          <img class="img-responsive" src="images/seal.png">
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9">
      <h3>Clubs</h3>
-     <hr>
-     <table>
+      <table class="table">
           <tr>
             <th>Club</th>
             <th>President</th>
@@ -60,10 +98,12 @@
      you have a fascination with beekeeping, Bee School is the club for you. There are a number of recreational sports clubs you
      can join like Rock Climbing and Kendo, or if you have a good palate give Campus Kitchen a try. These are just a few of the 
      many clubs that exist, so explore your options and try something new!</p>
+     </div>
      
+     <div class="col-md-9">
+          <hr>
      <h3>Organizations</h3>
-     <hr>
-     <table>
+     <table class="table">
           <tr>
             <th>Organization</th>
             <th>President</th>
@@ -110,12 +150,17 @@
      organizations like Hillel and Catholic Student Union, and Pride Alliance is another great way to get involved in a great 
      community. To take part in a national organization, join Dance Marathon to have some fun and raise money for a great cause. There
      are so many other fantastic organizations you can join at Wash U.</p>
+     </div>
      
+     <div class="col-md-12">
      <p>If you want to search for more clubs, click on <a href="http://su.wustl.edu/su-group-directory/">Student Union</a> to visit the 
      SU Group Directory. Here you can search for key words that interest you and it will match you with your ideal clubs and organizations.</p>
+     </div>
      
+     <div class="col-md-12">
      <p>Or if you have a group in mind and want to contact its members or get more information, click on <a href="https://portfolio.wustl.edu/">Portfolio</a> 
      to go to a special Wash U website that has all the information you could need on every club and organization at the university.</p>
+     </div>
      
      <h3>Still have a question? Ask your own!</h3>
      <hr>
