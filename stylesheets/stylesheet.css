@@ -47,10 +47,13 @@ h4 {
   border: 1px solid black;
 }
 
+.thumbnail h1 {
+  text-align: center;
+}
+
 .thumbnail h3 {
   color: #000;
   font-size: 1.3em;
-  text-align: center;
 }
 
 .thumbnail p {
